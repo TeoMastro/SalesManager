@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_analytikh_pelatwn"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/menu_analytikh_pelatwn" />
+        <item
+            android:id="@+id/nav_analytikh_proiontwn"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="@string/menu_analytikh_proiontwn" />
+        <item
+            android:id="@+id/nav_synolikes_pwlhseis"
+            android:icon="@drawable/ic_details_black_24dp"
+            android:title="@string/menu_synolikes_pwlhseis" />
+        <item
+            android:id="@+id/nav_ypoloipo_pwlhseis"
+            android:icon="@drawable/ic_details_black_24dp"
+            android:title="@string/menu_ypoloipo_pwlhseis" />
+        <item
+            android:id="@+id/nav_kalathi_agorwn"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/menu_kalathi_agorwn" />
+    </group>
+</menu>

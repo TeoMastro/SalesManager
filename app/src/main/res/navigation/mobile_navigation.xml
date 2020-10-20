@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.salesmanager.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_analytikh_pelatwn"
+        android:name="com.example.salesmanager.AnalytikhPelatwn"
+        android:label="@string/menu_analytikh_pelatwn"
+        tools:layout="@layout/fragment_analytikh_pelatwn" />
+
+    <fragment
+        android:id="@+id/nav_analytikh_proiontwn"
+        android:name="com.example.salesmanager.AnalytikhProiontwn"
+        android:label="@string/menu_analytikh_proiontwn"
+        tools:layout="@layout/fragment_analytikh_proiontwn" />
+
+    <fragment
+        android:id="@+id/nav_synolikes_pwlhseis"
+        android:name="com.example.salesmanager.SynolikesPwlhseis"
+        android:label="@string/menu_synolikes_pwlhseis"
+        tools:layout="@layout/fragment_synolikes_pwlhseis" />
+    <fragment
+        android:id="@+id/nav_ypoloipo_pwlhseis"
+        android:name="com.example.salesmanager.YpoloipoPwlhseis"
+        android:label="@string/menu_ypoloipo_pwlhseis"
+        tools:layout="@layout/fragment_ypoloipo_pwlhseis" />
+    <fragment
+        android:id="@+id/nav_kalathi_agorwn"
+        android:name="com.example.salesmanager.KalathiAgorwn"
+        android:label="@string/menu_kalathi_agorwn"
+        tools:layout="@layout/fragment_kalathi_agorwn" />
+</navigation>

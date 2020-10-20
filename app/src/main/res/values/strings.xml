@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SalesManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My eshop</string>
+    <string name="nav_header_subtitle">teomastro1999@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Κύρια Σελίδα Αγορών</string>
+    <string name="menu_analytikh_pelatwn">Αναλυτική Πελατών</string>
+    <string name="menu_analytikh_proiontwn">Αναλυτική Προιόντων</string>
+    <string name="menu_ypoloipo_pwlhseis">Στοιχεία πωλήσεων</string>
+    <string name="menu_synolikes_pwlhseis">Πωλήσεις</string>
+    <string name="menu_kalathi_agorwn">Καλάθι αγορών</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
